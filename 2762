@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int integerPart, decimalPart;
+    scanf("%d.%d", &integerPart, &decimalPart);
+    printf("%d.%d\n", decimalPart, integerPart);
+
+    return 0;
+}
