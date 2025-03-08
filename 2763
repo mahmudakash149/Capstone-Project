@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int XXX, YYY, ZZZ, DD;
+    scanf("%d.%d.%d-%d", &XXX, &YYY, &ZZZ, &DD);
+    printf("%03d\n%03d\n%03d\n%02d\n", XXX, YYY, ZZZ, DD);
+
+    return 0;
+}
